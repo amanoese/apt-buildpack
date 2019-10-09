@@ -1,0 +1,12 @@
+---
+truncatesources: true
+cleancache: true
+keys:
+- https://deb.nodesource.com/gpgkey/nodesource.gpg.key
+repos:
+- deb http://apt.example.com stable main
+- deb https://deb.nodesource.com/12 bionic main
+- deb-src https://deb.nodesource.com/12 bionic main
+packages:
+- nodejs
+- libreoffice
